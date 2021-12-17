@@ -1,0 +1,10 @@
+<h3 #typeTestContent>{{typingTestText}}</h3>
+<div>Wrong Words: {{wrongWords}}/ {{totalWords}}</div>
+<div>Timer: {{timer}} Second</div>
+
+
+<textarea width="300" height="500" appTypeChecker [timer]="timer" [defaultText]="typingTestText" [sourceElement]="typeTestContent" (onChange)="update($event)"></textarea>
+<div></div>
+<!-- <div contenteditable="true" class="text-editor" appTypeChecker [defaultText]="typingTestText" [sourceElement]="typeTestContent"></div>
+<input type="hidden"  /> -->
+

@@ -1,0 +1,17 @@
+textarea,.text-editor{
+    resize: none;
+    height: 10em;
+    width: 100%;
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+
+h3 span{
+    transition: color 0.5s;
+    color:#fff;
+    
+}
+
+.text-editor{
+    border:1px solid #000;
+}
